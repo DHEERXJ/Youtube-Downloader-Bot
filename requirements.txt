@@ -6,3 +6,6 @@ wget
 pillow
 hachoir
 ffmpeg-python
+--upgrade youtube_dl
+ffmpeg
+ffprobe
