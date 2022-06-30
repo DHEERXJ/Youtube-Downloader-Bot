@@ -1,6 +1,8 @@
 from __future__ import unicode_literals
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 import youtube_dl
+import ffmpeg
+import ffprobe
 from utils.util import humanbytes
 import asyncio
 
