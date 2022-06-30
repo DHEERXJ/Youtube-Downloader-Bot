@@ -6,6 +6,7 @@ from helper.ytdlfunc import extractYt, create_buttons
 import wget
 import os
 import ffmpeg,ffprobe
+import youtube_dl
 from PIL import Image
 
 ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
