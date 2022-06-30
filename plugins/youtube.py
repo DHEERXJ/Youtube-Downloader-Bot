@@ -6,7 +6,6 @@ from helper.ytdlfunc import extractYt, create_buttons
 import wget
 import os
 import ffmpeg
-import ffprobe
 import youtube_dl
 from PIL import Image
 
