@@ -5,6 +5,7 @@ from config import youtube_next_fetch
 from helper.ytdlfunc import extractYt, create_buttons
 import wget
 import os
+import ffmpeg,ffprobe
 from PIL import Image
 
 ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
