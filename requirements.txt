@@ -5,4 +5,4 @@ git+https://github.com/ytdl-org/youtube-dl
 wget
 pillow
 hachoir
-pip install ffmpeg-python
+ffmpeg-python
